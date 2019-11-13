@@ -2,13 +2,60 @@
     margin: auto;
     width: 65%;
 }
-
-#menu_include {
-    border-color: white;
-    height: auto;
-    width: 100%;
+.carousel-inner .carousel-item {
+    -webkit-transition: -webkit-transform 1.5s ease-in-out !important;
+    -o-transition: -o-transform 1.5s ease-in-out !important;
+    transition: transform 1.5s ease-in-out !important;
 }
 
-#menu:hover ul li {
+.carousel-item div h5, .carousel-item div p {
+    position: relative;
+    left: 50%;
+    margin: auto;
+    padding: 3px;
+    width: max-content;
     background-color: limegreen;
+    border-radius: 10px;
+}
+
+.carousel-inner .carousel-item img {
+    object-fit: contain;
+    background-color: black;
+    height: 360px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: silver;
+    border: 1px;
+    background-color: black;
+    border-radius: 1px;
+    height: min-content;
+    width: max-content;
+
+}
+
+h1 {
+    width: max-content;
+    margin: auto;
+    padding: 3px;
+    background-color: red;
+    border: 3px;
+    border-color: red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.infosheet .row{
+    padding: 2px;
+    margin: 5px;
+    background-color: rgba(255,0,0,.5);
+}
+
+.infosheet, .locator_map {
+    padding: 20px;
+}
+
+.locator_map img {
+    object-fit: contain;
+    height: 500px;
 }
