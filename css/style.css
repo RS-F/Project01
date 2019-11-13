@@ -3,12 +3,22 @@
     width: 65%;
 }
 
-#menu_include {
-    border-color: white;
-    height: auto;
-    width: 100%;
+header {
+    height:100px;
+    background-image: url("../pics/panorama1.jpg");
+    background-size: cover;
+    font-size: 0.8em;
 }
 
-#menu:hover ul li {
-    background-color: limegreen;
+nav.navbar-expand-lg {
+    height: 40px;
+   /* background-color:rgba(100,100,100,0.9);*/
+}
+
+h1 {
+    padding:10px;
+}
+
+footer {
+    font-size:0.8em;
 }
