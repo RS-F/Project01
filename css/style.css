@@ -1,9 +1,9 @@
-@media (max-width: 991px) {
+@media (max-width: 991px) { /* adjust menu for better reading */
     .navbar-collapse {
-        overflow: auto;
+        overflow: hidden; /* no scrolling bar while opening hamburger */
     }
-    .navbar-nav {
-        float: right;
+    .navbar-nav { 
+        float: right; /* menu should be opened right */
         background-color: rgba(99, 79, 79, 0.8);
         border-radius: 5px;
         margin: 2px;
@@ -23,15 +23,16 @@
     width: 65%;
 }
 
-.carousel-inner .carousel-item {
+.carousel-inner .carousel-item { /* adjust scrolling speed */
     -webkit-transition: -webkit-transform 1.5s ease-in-out !important;
     -o-transition: -o-transform 1.5s ease-in-out !important;
     transition: transform 1.5s ease-in-out !important;
 }
 
-.carousel-item div h5, .carousel-item div p {
+.carousel-item div h5, .carousel-item div p { /* comments in carousel */
     position: relative;
     left: 50%;
+    color: black;
     margin: auto;
     padding: 3px;
     width: max-content;
@@ -39,7 +40,7 @@
     border-radius: 10px;
 }
 
-.carousel-inner .carousel-item img {
+.carousel-inner .carousel-item img { /* limit picture size, keep ratio */
     object-fit: contain;
     background-color: black;
     height: 360px;
@@ -53,16 +54,6 @@
     height: min-content;
     width: max-content;
 
-}
-
-.infosheet .row{
-    padding: 2px;
-    margin: 5px;
-    background-color: rgba(255,0,0,.5);
-}
-
-.infosheet, .locator_map {
-    padding: 20px;
 }
 
 .locator_map img {
@@ -90,4 +81,3 @@ nav.navbar-expand-lg {
 footer {
     font-size:0.8em;
 }
-
