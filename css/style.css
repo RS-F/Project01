@@ -1,3 +1,19 @@
+@media (max-width: 991px) {
+    .navbar-nav {
+    background-color: rgba(99, 79, 79, 0.8);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+    width: max-content;
+    }
+    .nav-link {
+        color: white !important;
+        margin: 5px;
+        padding: 5px;
+        width: max-content;
+    }
+}
+
 #carousel-header {
     margin: auto;
     width: 65%;
@@ -70,3 +86,4 @@ nav.navbar-expand-lg {
 footer {
     font-size:0.8em;
 }
+
