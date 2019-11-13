@@ -2,3 +2,13 @@
     margin: auto;
     width: 65%;
 }
+
+#menu_include {
+    border-color: white;
+    height: auto;
+    width: 100%;
+}
+
+#menu:hover ul li {
+    background-color: limegreen;
+}
