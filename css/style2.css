@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+figure {
+    width: 32%;
+    flex: 1;
+}
+
+img {
+    max-width:400px;
+}
