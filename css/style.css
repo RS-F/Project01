@@ -27,6 +27,11 @@ header {
     font-size: 0.8em;
 }
 
+span.headline {
+     font-size:0.4em;
+     width: min-content;
+}
+
 nav.navbar-expand-lg {
     height: 40px;
    /* background-color:rgba(100,100,100,0.9);*/

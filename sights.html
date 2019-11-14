@@ -40,7 +40,7 @@
 
 <body>
     <div class="container-fluid">
-        <h1>Sights of Hamburg</h1>
+        <h1>Sights of Hamburg <span class="headline">Klick on the images for location info!</span></h1>
         <div class="row align-items-center">
             <div class="col-9">
                 <div class="container sights">
@@ -63,12 +63,10 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18964.190516880004!2d9.96128333168169!3d53.5484161867299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f11e1dd5b45%3A0x187d5dca009a4b19!2sHauptkirche%20St.%20Michaelis!5e0!3m2!1sde!2sde!4v1573725335718!5m2!1sde!2sde" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                                                <!-- <iframe
-                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18964.190516880004!2d9.96128333168169!3d53.5484161867299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f11e1dd5b45%3A0x187d5dca009a4b19!2sHauptkirche%20St.%20Michaelis!5e0!3m2!1sde!2sde!4v1573723906241!5m2!1sde!2sde"
-                                                    width="600" height="450" frameborder="0" style="border:0;"
+                                                <iframe
+                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18964.190516880004!2d9.96128333168169!3d53.5484161867299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f11e1dd5b45%3A0x187d5dca009a4b19!2sHauptkirche%20St.%20Michaelis!5e0!3m2!1sde!2sde!4v1573725335718!5m2!1sde!2sde"
+                                                    width="400" height="350" frameborder="0" style="border:0;"
                                                     allowfullscreen=""></iframe>
-                                                    Erscheint der Text? -->
                                                 <!-- Coordinates: 53.5484162,9.9612833 -->
                                             </div>
                                             <div class="modal-footer">
@@ -261,11 +259,11 @@
 
                     var locations = [
                         ['St. Michaels Church', 53.5484162, 9.9612833, 4],
-                        ['Hamburg Port', 53.5457481,9.9336598, 5],
-                        ['Hamburg Townhall', 53.550387,9.9748537, 3],
-                        ['Elbphilharmonie', 53.5413342,9.9666125, 2],
-                        ['Alster Lake', 53.555127,9.995876, 1]
-                        ['Storehouse City', 53.545444,9.996889, 6]
+                        ['Hamburg Port', 53.5457481, 9.9336598, 5],
+                        ['Hamburg Townhall', 53.550387, 9.9748537, 3],
+                        ['Elbphilharmonie', 53.5413342, 9.9666125, 2],
+                        ['Alster Lake', 53.555127, 9.995876, 1]
+                        ['Storehouse City', 53.545444, 9.996889, 6]
                     ];
 
                     var map = new google.maps.Map(document.getElementById('map'), {
