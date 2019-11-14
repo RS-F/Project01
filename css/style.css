@@ -1,5 +1,6 @@
 @media (max-width: 991px) { /* adjust menu for better reading */
     .navbar-collapse {
+        z-index: 1;
         overflow: hidden; /* no scrolling bar while opening hamburger */
     }
     .navbar-nav { 
@@ -18,55 +19,18 @@
     }
 }
 
-#carousel-header {
-    margin: auto;
-    width: 65%;
-}
-
-.carousel-inner .carousel-item { /* adjust scrolling speed */
-    -webkit-transition: -webkit-transform 1.5s ease-in-out !important;
-    -o-transition: -o-transform 1.5s ease-in-out !important;
-    transition: transform 1.5s ease-in-out !important;
-}
-
-.carousel-item div h5, .carousel-item div p { /* comments in carousel */
-    position: relative;
-    left: 50%;
-    color: black;
-    margin: auto;
-    padding: 3px;
-    width: max-content;
-    background-color: limegreen;
-    border-radius: 10px;
-}
-
-.carousel-inner .carousel-item img { /* limit picture size, keep ratio */
-    object-fit: contain;
-    background-color: black;
-    height: 360px;
-}
-
-.carousel-control-next, .carousel-control-prev {
-    color: silver;
-    border: 1px;
-    background-color: black;
-    border-radius: 1px;
-    height: min-content;
-    width: max-content;
-
-}
-
-.locator_map img {
-    object-fit: contain;
-    height: 500px;
-}
-
 header {
     height:100px;
     background-image: url("../pics/panorama1.jpg");
     background-size: cover;
     background-position: 20%, 20%;
     font-size: 0.8em;
+}
+
+span.headline {
+     font-size:0.4em;
+     width: min-content;
+     white-space: nowrap;
 }
 
 nav.navbar-expand-lg {
@@ -141,4 +105,5 @@ h1 {
 
 footer {
     font-size:0.8em;
+
 }
