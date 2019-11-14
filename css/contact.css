@@ -1,0 +1,9 @@
+
+footer {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	bottom: 10px;
+	background: yellow;
+}
+
