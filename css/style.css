@@ -1,5 +1,6 @@
 @media (max-width: 991px) { /* adjust menu for better reading */
     .navbar-collapse {
+        z-index: 1;
         overflow: hidden; /* no scrolling bar while opening hamburger */
     }
     .navbar-nav { 
