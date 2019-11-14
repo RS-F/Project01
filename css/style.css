@@ -19,49 +19,6 @@
     }
 }
 
-#carousel-header {
-    margin: auto;
-    width: 65%;
-}
-
-.carousel-inner .carousel-item { /* adjust scrolling speed */
-    -webkit-transition: -webkit-transform 1.5s ease-in-out !important;
-    -o-transition: -o-transform 1.5s ease-in-out !important;
-    transition: transform 1.5s ease-in-out !important;
-}
-
-.carousel-item div h5, .carousel-item div p { /* comments in carousel */
-    position: relative;
-    left: 50%;
-    color: black;
-    margin: auto;
-    padding: 3px;
-    width: max-content;
-    background-color: limegreen;
-    border-radius: 10px;
-}
-
-.carousel-inner .carousel-item img { /* limit picture size, keep ratio */
-    object-fit: contain;
-    background-color: black;
-    height: 360px;
-}
-
-.carousel-control-next, .carousel-control-prev {
-    color: silver;
-    border: 1px;
-    background-color: black;
-    border-radius: 1px;
-    height: min-content;
-    width: max-content;
-
-}
-
-.locator_map img {
-    object-fit: contain;
-    height: 500px;
-}
-
 header {
     height:100px;
     background-image: url("../pics/panorama1.jpg");
@@ -70,11 +27,50 @@ header {
     font-size: 0.8em;
 }
 
+span.headline {
+     font-size:0.4em;
+     width: min-content;
+     white-space: nowrap;
+}
+
 nav.navbar-expand-lg {
     height: 40px;
    /* background-color:rgba(100,100,100,0.9);*/
 }
+.bilder { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
 
+div.container-fluid h1 {
+    text-align: center;
+}
+div.bilder h2 {
+    font-size: 1.3em;
+    margin: 10px;
+    text-align: center;
+}
+div.einruecken  {
+    display: flex;
+    justify-content: space-between;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid gainsboro;
+    background: white;
+  }
+  
+  figcaption {
+    padding: 10px;
+    text-align: block;
+  }
 div.sights .col {
     max-width:300px;
 }
@@ -108,5 +104,8 @@ h1 {
 }
 
 footer {
-    font-size:0.8em;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
