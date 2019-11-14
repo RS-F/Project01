@@ -30,6 +30,7 @@ header {
 span.headline {
      font-size:0.4em;
      width: min-content;
+     white-space: nowrap;
 }
 
 nav.navbar-expand-lg {
