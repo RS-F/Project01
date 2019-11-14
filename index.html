@@ -2,26 +2,34 @@
 <html>
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-    <!-- Own CSS-->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Hamburg Short Overview</title>
 </head>
+
 <header>
-    <div>
-        <p>to_do: Insert Menu here!</p>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Discover Hamburg</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="sights.html">Sights of Hamburg</a>
+                <a class="nav-item nav-link" href="thingstodo.html">Things to do</a>
+                <a class="nav-item nav-link" href="beatles.html">The Beatles in Hamburg</a>
+            </div>
+        </div>
+    </nav>
 </header>
 
 <body>
+    <!-- Please insert your HTML body here-->
     <h1>Hamburg Short Referenz</h1>
+
     <hr>
+    
     <!-- carousel begin -->
     <div class="carousel-header-class">
         <div id="carousel-header" class="carousel slide" data-ride="carousel">
@@ -120,66 +128,68 @@
         </div>
     </div>
     <!-- carousel end -->
+
     <hr>
+
     <!-- info begin-->
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-7 col-sm-6 infosheet">
-                <h2>Info Sheet</h2>
-                <div class="row rounded">
-                    <div class="col">Hamburg-Mitte</div>
-                    <div class="col">Population: 302,994</div>
-                    <div class="col">142.2 km² (18.8%)</div>
-                </div>
-                <div class="row rounded">
-                    <div class="col">Altona</div>
-                    <div class="col">Population: 274,702</div>
-                    <div class="col">77.9 km² (10.3%)</div>
-                </div>
-                <div class="row rounded">
-                    <div class="col">Elmsbüttel</div>
-                    <div class="col">Population: 264,869</div>
-                    <div class="col">49.8 km² (6.6%)</div>
-                </div>
-                <div class="row rounded">
-                    <div class="col">Hamburg-Nord</div>
-                    <div class="col">Population: 313,617</div>
-                    <div class="col">57.8 km² (7.7%)</div>
-                </div>
-                <div class="row rounded">
-                    <div class="col">Wandsbek</div>
-                    <div class="col">Population: 438,624</div>
-                    <div class="col">147.5 km² (19.5%)</div>
-                </div>
-                <div class="row rounded">
-                    <div class="col">Bergedorf</div>
-                    <div class="col">Population: 129,599</div>
-                    <div class="col">154.8 km² (20.5%)</div>
-                </div>
-                <div class="row rounded">
-                    <div class="col">Harburg</div>
-                    <div class="col">Population: 167,405</div>
-                    <div class="col">125.2 km² (16.6%)</div>
-                </div>
-                <div class="row rounded">
-                    <div class="col">All together</div>
-                    <div class="col">Population: 1,891,810</div>
-                    <div class="col">755.2 km² (100.0%)</div>
-                </div>
+                <h2>Welcome to Hamburg!</h2>
+                <p>The City of Hamburg was found in the 9th century. It developed into an important trading post in
+                    Europe fast.<br>
+                    The <strong>Free and Hanseatic City of Hamburg</strong> is the second largest city in Germany after
+                    the capital and the 8th largest city in the European Union. </p>
+                <p>The official name shows the city's history as a member of the Hanseatic League. In the past it was a
+                    sovereign city state. Hamburg recovered of many setbacks such as <em>the Great Fire of Hamburg</em>,
+                    <em>flood of 1962</em> and several <em>bombings of WW2</em>.</p>
+                <p>Hamburg contains contains Germany's largest port which is at the same time the 3rd largest port in
+                    Europe.</p>
+                <p>When visiting Hamburg you got plenty of places of interest to visit, such as <em>fish market</em>,
+                    <em>Elbphilharmonie</em> and -of course- <em>St. Pauli's</em> just to mentioned a few.
+                    <p>For more detailed information please check the links below.</p>
             </div>
             <div class="col locator_map">
+                <h4>Location of Hamburg within Germany:</h4>
                 <img class="d-block w-100 border-info rounded" src="pics/Locator_map_Hamburg_in_Germany.jpg">
             </div>
         </div>
     </div>
     <!-- info end -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</body>
-<footer>
+    <!-- scripts should be loaded at the end for "felt" performance-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
+</body>
+
+<footer>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="list-group list-group-flush">
+                    <a href="https://www.hamburg.com/" class="list-group-item" target="_blank">Hamburg City Page</a>
+                    <a href="https://de.wikipedia.org/wiki/Hamburg" class="list-group-item" target="_blank">Hamburg Wikipedia Page</a>
+                    <a href="https://www.hamburg-travel.com/" class="list-group-item" target="_blank">Hamburg Tourism Page</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="list-group list-group-flush">
+                    <a href="https://pixabay.com/" class="list-group-item" target="_blank">Image Source</a>
+                    <a href="https://www.wildcodeschool.com/en-GB" class="list-group-item" target="_blank">Wild Code School</a>
+                    <a href="contact.html" class="list-group-item">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 </html>

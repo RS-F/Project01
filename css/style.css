@@ -1,17 +1,38 @@
+@media (max-width: 991px) { /* adjust menu for better reading */
+    .navbar-collapse {
+        overflow: hidden; /* no scrolling bar while opening hamburger */
+    }
+    .navbar-nav { 
+        float: right; /* menu should be opened right */
+        background-color: rgba(99, 79, 79, 0.8);
+        border-radius: 5px;
+        margin: 2px;
+        padding: 2px;
+        width: max-content;
+    }
+    .nav-link {
+        color: white !important;
+        margin: 5px;
+        padding: 5px;
+        width: max-content;
+    }
+}
+
 #carousel-header {
     margin: auto;
     width: 65%;
 }
 
-.carousel-inner .carousel-item {
+.carousel-inner .carousel-item { /* adjust scrolling speed */
     -webkit-transition: -webkit-transform 1.5s ease-in-out !important;
     -o-transition: -o-transform 1.5s ease-in-out !important;
     transition: transform 1.5s ease-in-out !important;
 }
 
-.carousel-item div h5, .carousel-item div p {
+.carousel-item div h5, .carousel-item div p { /* comments in carousel */
     position: relative;
     left: 50%;
+    color: black;
     margin: auto;
     padding: 3px;
     width: max-content;
@@ -19,7 +40,7 @@
     border-radius: 10px;
 }
 
-.carousel-inner .carousel-item img {
+.carousel-inner .carousel-item img { /* limit picture size, keep ratio */
     object-fit: contain;
     background-color: black;
     height: 360px;
@@ -35,23 +56,9 @@
 
 }
 
-.infosheet .row{
-    padding: 2px;
-    margin: 5px;
-    background-color: rgba(255,0,0,.5);
-}
-
-.infosheet, .locator_map {
-    padding: 20px;
-}
-
 .locator_map img {
     object-fit: contain;
     height: 500px;
-}
-
-h1 {
-    padding:10px;
 }
 
 header {
@@ -65,6 +72,38 @@ header {
 nav.navbar-expand-lg {
     height: 40px;
    /* background-color:rgba(100,100,100,0.9);*/
+}
+
+div.sights .col {
+    max-width:300px;
+}
+
+div.sights img {
+    width:100%;
+}
+
+div.sights figure{
+    position: relative;
+}
+
+div.sights div.card {
+    position: absolute;
+    width:100%;
+    top: 0%;
+    background-color:rgba(100,100,100,0.8);
+}
+
+div.sights iframe {
+    max-width: 100%;
+}
+
+div.sights figcaption {
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+h1 {
+    padding:10px;
 }
 
 footer {
