@@ -9,15 +9,15 @@
     transition: transform 1.5s ease-in-out !important;
 }
 
-.carousel-item div h5, .carousel-item div p { /* comments in carousel */
-    position: relative;
-    left: 50%;
-    color: black;
-    margin: auto;
-    padding: 3px;
-    width: max-content;
-    background-color: limegreen;
+.carousel-item div {
+    color:white; 
+    /* background-color: rgba(50, 205, 50, .6); */
+    background-color: rgba(0, 0, 0, .2);
     border-radius: 10px;
+    width: max-content;
+    height: min-content;
+    margin: auto;
+    padding: 5px;
 }
 
 .carousel-control-prev-icon {
