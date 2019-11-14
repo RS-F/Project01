@@ -1,0 +1,32 @@
+
+div.sights .col {
+    max-width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.sights img {
+    width:100%;
+}
+
+div.sights div.map {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.sights figure{
+    font-size: 0.8em;
+}
+
+div.sights iframe {
+    max-width: 100%;
+}
+
+div.sights figcaption {
+    font-size: 1.1em;
+    padding: 5px;
+}

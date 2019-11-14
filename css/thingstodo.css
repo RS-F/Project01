@@ -1,9 +1,16 @@
-.card-deck {
-    padding : 50px;
+.bilder { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
-.card {
-    min-width: 250px;
+div.bilder h2 {
+    font-size: 1.3em;
+    margin: 10px;
+}
+div.einruecken  {
+    display: flex;
+    justify-content: space-between;
 }
 
 figure {
