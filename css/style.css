@@ -30,13 +30,47 @@ header {
 span.headline {
      font-size:0.4em;
      width: min-content;
+     white-space: nowrap;
 }
 
 nav.navbar-expand-lg {
     height: 40px;
    /* background-color:rgba(100,100,100,0.9);*/
 }
+.bilder { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
 
+div.container-fluid h1 {
+    text-align: center;
+}
+div.bilder h2 {
+    font-size: 1.3em;
+    margin: 10px;
+    text-align: center;
+}
+div.einruecken  {
+    display: flex;
+    justify-content: space-between;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid gainsboro;
+    background: white;
+  }
+  
+  figcaption {
+    padding: 10px;
+    text-align: block;
+  }
 div.sights .col {
     max-width:400px;
     display: flex;
@@ -74,5 +108,8 @@ h1 {
 }
 
 footer {
-    font-size:0.8em;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
