@@ -38,22 +38,26 @@ nav.navbar-expand-lg {
 }
 
 div.sights .col {
-    max-width:300px;
+    max-width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 div.sights img {
     width:100%;
 }
 
-div.sights figure{
-    position: relative;
+div.sights div.map {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    margin: 0 auto;
 }
 
-div.sights div.card {
-    position: absolute;
-    width:100%;
-    top: 0%;
-    background-color:rgba(100,100,100,0.8);
+div.sights figure{
+    font-size: 0.8em;
 }
 
 div.sights iframe {
