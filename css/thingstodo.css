@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+img {
+    max-width: 80%;
+}
+
 div.bilder h2 {
     font-size: 1.3em;
 }
