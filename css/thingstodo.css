@@ -4,13 +4,17 @@
     align-items: center;
 }
 
+img {
+    max-width: 80%;
+}
+
 div.bilder h2 {
     font-size: 1.3em;
-    margin: 10px;
 }
 div.einruecken  {
     display: flex;
     justify-content: space-between;
+    margin-top: 0.3em;
 }
 
 figure {
