@@ -19,6 +19,21 @@
     }
 }
 
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 10rem;
+}
+
+main {
+    display: block;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -72,4 +87,8 @@ footer div {
     flex-direction: row;
     justify-content: space-around;
     align-content: stretch;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    left: 0;
 }
