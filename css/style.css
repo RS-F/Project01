@@ -66,16 +66,19 @@ footer {
     background-image: url(../pics/panorama1.jpg);
     background-size: cover;
     background-position: 20%, 20%;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    left: 0;
 }
 
 footer li {
    list-style-type: none;
-   background-color: rgba(255,255,255,0.5);
    padding: 0.5em; 
 }
 
-footer a {
-    background-color: rgba(255,255,255,0.1);
+footer b {
+    color: #E20074;
 }
 
 footer img {
@@ -86,9 +89,5 @@ footer div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: stretch;
-    position: absolute;
-    bottom: 0; 
-    right: 0;
-    left: 0;
+    background-color: rgba(255,255,255,0.5);
 }
