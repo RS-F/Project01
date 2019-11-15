@@ -27,9 +27,11 @@ figure {
     width: 400px;
     border: 1px solid gainsboro;
     background: white;
+    height: 100%;
   }
   
   figcaption {
     padding: 10px;
     text-align: block;
+    height: 40%;
   }
