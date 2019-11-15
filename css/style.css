@@ -19,6 +19,21 @@
     }
 }
 
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 10rem;
+}
+
+main {
+    display: block;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -47,7 +62,8 @@ h1 {
 
 footer {
     font-size: 0.8em;
- /*   position: absolute;
-    bottom: 0; */
-    width: 100%;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    left: 0;
 }
