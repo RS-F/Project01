@@ -20,11 +20,14 @@
 }
 
 header {
+    position: sticky;
+    top: 0;
     height:100px;
     background-image: url("../pics/panorama1.jpg");
     background-size: cover;
     background-position: 20%, 20%;
     font-size: 0.8em;
+    z-index: 1000;
 }
 
 span.headline {
